@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    max-width: 1330px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.univ_btn{
+    border: none;
+    background-color: transparent;
+    background: #BF7256;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 11px 24px;
+    position: relative;
+}
+
+.univ_text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.univ_holder{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    color: #000000;
+}
+
+button{
+    cursor: pointer;
+}
+
+.slick-arrow{
+    &::before{
+        color: #000000 !important;
+        font-size: 40px !important;
+    }
+}
+
+
+.slick-prev{
+    left: -40px !important;
+}
+
+html{
+    scroll-behavior: smooth;
+}

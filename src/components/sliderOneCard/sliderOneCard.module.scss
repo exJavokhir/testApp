@@ -1,0 +1,42 @@
+.SliderOneCard_wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .left_side{
+        position: relative;
+        width: 50%;
+        height: 462px;
+        .image_one{
+            width: 290px;
+            height: 300px;
+            position: absolute;
+            top: 0;
+            left: 51px;
+        }
+        .image_two{
+            bottom: 15px;
+            right: -50px;
+            width: 256px;
+            position: absolute;
+            height: 198px;
+        }
+    }
+    .right_side{
+        width: 50%;
+        border: 2px solid #000;
+        padding: 20px 30px 20px 40px;
+        box-sizing: border-box;
+        p{
+            margin-bottom: 10px;
+        }
+        .slider_link{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 150%;
+            color: #A29D9D;
+        }
+    }
+}

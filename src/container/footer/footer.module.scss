@@ -1,0 +1,92 @@
+.footer_wrapper{
+    background: #022873;
+    padding: 40px 0 147px 0;
+    .inner{
+        display: flex;
+        justify-content: space-between;
+        .block_one{
+            .footer_ul{
+                margin-top: 25px;
+                li{
+                    display: block;
+                    margin-bottom: 15px;
+                    a{
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 25px;
+                        line-height: 30px;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+        .block_two{
+            margin-top: 50px;
+            ul{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 35px;
+                line-height: 42px;
+                color: #FFFFFF;
+                li{
+                    display: block;
+                    margin-top: 29px;
+                    a{
+                        display: flex;
+                        align-items: center;
+                        span{
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 25px;
+                            line-height: 30px;
+                            color: #FFFFFF;
+                            display: block;
+                            padding-left: 27px;
+                        }
+                    }
+                }
+            }
+        }
+        .block_thre{
+            margin-top: 50px;
+            h2{
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 37px;
+                color: #FFFFFF;
+                margin-bottom: 15px;
+            }
+            .main_place{
+                display: flex;
+                align-items: center;
+                button{
+                    border: none;
+                    background-color: #BF7256;
+                    padding: 18px;
+                }
+                input{
+                    border: none;
+                    background-color: transparent;
+                    outline: none;
+                    width: 314px;
+                    padding: 20px;
+                    box-sizing: border-box;
+                    background-color: #FFFFFF;
+                    font-family: 'inter';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 22px;
+                    line-height: 26px;
+                    &::placeholder{
+                        color: #B5B4B4;
+                    }
+                }
+            }
+        }
+    }
+}

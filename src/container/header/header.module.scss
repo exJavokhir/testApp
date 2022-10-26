@@ -1,0 +1,64 @@
+.Header_wrapper{
+    background: #022873;
+    padding: 18px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    .inner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logo{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .links{
+            .header_ul{
+                display: flex;
+                align-items: center;
+                gap: 50px;
+                a{
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+        .terms{
+            display: flex;
+            align-items: center;
+            gap: 28px;
+            .lang_select{
+                select{
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #FFFFFF;
+                    outline: none;
+                    background-color: transparent;
+                    border: none;
+                }
+            }
+            .search{
+                .search_btn{
+                    border: none;
+                    background-color: transparent;
+                }
+                .search_place{
+                    display: none;
+                }
+            }
+            .sign{
+                .univ_btn{
+                    padding: 12px 24px;
+                }
+            }
+        }
+    }
+}
